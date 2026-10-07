@@ -179,7 +179,7 @@ def build_story():
     story = [
         Paragraph("Juan Sebastián Rubiano", styles["Name"]),
         Paragraph(
-            "Estudiante de Ingeniería de Sistemas | Tecnólogo en Desarrollo de Sistemas Informáticos",
+            "Tecnólogo en Desarrollo de Sistemas Informáticos | Proyecto de grado en curso",
             styles["Role"],
         ),
         contact_line(styles),
@@ -188,9 +188,10 @@ def build_story():
     story.extend(section("Perfil", styles))
     story.append(
         Paragraph(
-            "Estudiante de Ingeniería de Sistemas con experiencia aplicada en desarrollo de software, datos y automatización. "
-            "Busco prácticas empresariales en software, análisis de datos o roles iniciales de ingeniería de datos, aportando "
-            "criterio operativo, aprendizaje rápido y capacidad para convertir necesidades reales en soluciones digitales.",
+            "Tecnólogo en Desarrollo de Sistemas Informáticos con materias de Ingeniería de Sistemas finalizadas "
+            "y proyecto de grado en curso. Tengo experiencia en la operación y atención al cliente de una óptica, "
+            "donde identifiqué necesidades de información y diseñé soluciones digitales. Busco un rol de entrada "
+            "en implementación, análisis de datos o software, aportando criterio operativo, comunicación y aprendizaje rápido.",
             styles["Body"],
         )
     )
@@ -200,21 +201,19 @@ def build_story():
         Paragraph(
             "<b>Datos y analítica:</b> Python, SQL, Excel, Tableau, Power BI, estadística descriptiva, dashboards, "
             "limpieza y análisis exploratorio de datos.<br/>"
-            "<b>Ingeniería de datos en formación:</b> PySpark, ETL/ELT, Data Lake, Lakehouse, arquitectura Medallion y Microsoft Fabric.<br/>"
-            "<b>Desarrollo de software:</b> TypeScript, React, Node.js, NestJS, PostgreSQL, APIs REST, Git/GitHub y Docker.<br/>"
-            "<b>Complementos:</b> Inglés C1 (EF SET), documentación técnica, levantamiento de requerimientos y comunicación con usuarios.",
+            "<b>Software:</b> TypeScript, React, Node.js, NestJS, PostgreSQL, APIs REST, Git/GitHub y Docker.",
             styles["Body"],
         )
     )
 
     story.extend(section("Experiencia aplicada", styles))
-    story.append(Paragraph("Gestión y transformación digital - Óptica - 2 años", styles["Project"]))
+    story.append(Paragraph("Operación y atención al cliente - Óptica - 2 años", styles["Project"]))
     story.append(
         bullet_list(
             [
-                "Diseñé Óptica Suite para centralizar inventario, ventas, historias clínicas, citas, sedes, usuarios por rol y reportes operativos.",
-                "Organicé flujos de información antes dispersos entre Excel, Word, PDF y notas, mejorando trazabilidad y consulta operativa.",
-                "Analicé ventas e indicadores, y apoyé marketing digital y presencia comercial con información más clara para decidir.",
+                "Participé en la gestión comercial y atención al cliente, con seguimiento de inventario, ventas, agenda e indicadores.",
+                "Identifiqué información dispersa entre Excel, Word, PDF y notas, y diseñé Óptica Suite para centralizar procesos y facilitar su consulta.",
+                "Analicé ventas e indicadores para entender necesidades operativas y apoyar decisiones del negocio.",
             ],
             styles,
         )
@@ -223,17 +222,9 @@ def build_story():
     story.extend(section("Proyectos seleccionados", styles))
     story.extend(
         project_block(
-            "ARQUITECTURA DE DATOS - PRÁCTICA EN EVOLUCIÓN",
-            "Data Lake Practice",
-            "Laboratorio para reforzar organización por capas, transformación y consumo analítico con Python, SQL, PySpark, Lakehouse y lógica Bronze, Silver y Gold.",
-            styles,
-        )
-    )
-    story.extend(
-        project_block(
-            "SOFTWARE Y DATOS OPERATIVOS",
+            "SOFTWARE Y PROCESOS OPERATIVOS",
             "Óptica Suite",
-            "Plataforma para integrar una operación real y convertir procesos comerciales, clínicos y logísticos en información estructurada, trazable y consultable.",
+            "Proyecto de software para organizar inventario, ventas, agenda y reportes de una óptica. Utiliza PostgreSQL y APIs para estructurar información de la operación.",
             styles,
         )
     )
@@ -241,14 +232,14 @@ def build_story():
         project_block(
             "ANALÍTICA Y VISUALIZACIÓN",
             "Dashboard de recursos humanos en Tableau",
-            "Dashboard que traduce datos de empleados en indicadores de headcount, rotación, contrataciones y distribución por áreas para lectura ejecutiva.",
+            "Dashboard que presenta datos de empleados en indicadores de plantilla, rotación, contrataciones y distribución por áreas.",
             styles,
         )
     )
 
     story.append(
         Paragraph(
-            "<b>Proyectos complementarios:</b> aplicación de finanzas y hábitos, caso de estadística aplicada a cojinetes, "
+            "<b>Otros proyectos:</b> estadística aplicada a cojinetes, aplicación de finanzas y hábitos, "
             "ejercicios de machine learning y catálogo de monturas con realidad aumentada.",
             styles["Body"],
         )
@@ -257,8 +248,8 @@ def build_story():
     story.extend(section("Formación y certificaciones", styles))
     story.append(
         Paragraph(
-            "<b>Universidad Tecnológica de Santander:</b> Tecnólogo en Desarrollo de Sistemas Informáticos. "
-            "Estudiante de décimo semestre de Ingeniería de Sistemas.<br/>"
+            "<b>Universitaria Tecnológica de Santander (UTS):</b> Tecnólogo en Desarrollo de Sistemas Informáticos. "
+            "Ingeniería de Sistemas: materias finalizadas; proyecto de grado en curso.<br/>"
             "<b>Certificaciones destacadas:</b> Google Data Analytics, Google Advanced Data Analytics, PCAP Python, "
             "EF SET English Certificate C1 e IBM en IA, ciberseguridad y tecnologías emergentes.",
             styles["Body"],
@@ -268,7 +259,8 @@ def build_story():
     story.extend(section("Interés profesional", styles))
     story.append(
         Paragraph(
-            "Prácticas empresariales y oportunidades trainee o junior en desarrollo de software, datos, analítica, automatización e ingeniería de datos.",
+            "Roles junior o trainee en implementación de soluciones, análisis de datos y desarrollo de software. "
+            "Experiencia en atención al cliente, identificación de necesidades y comunicación con usuarios.",
             styles["Body"],
         )
     )
@@ -305,7 +297,7 @@ def main():
         bottomMargin=1.2 * cm,
         title="Juan Sebastián Rubiano - Hoja de vida",
         author="Juan Sebastián Rubiano",
-        subject="Hoja de vida para prácticas empresariales en software, datos y analítica",
+        subject="Hoja de vida para roles de entrada en implementación, datos y software",
     )
     doc.build(build_story(), onFirstPage=draw_page, onLaterPages=draw_page)
     print(f"PDF generado en: {OUTPUT_PATH}")

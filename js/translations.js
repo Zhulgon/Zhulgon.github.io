@@ -3,7 +3,7 @@
     es: {
       metaTitle: "Juan Sebastián Rubiano | Portafolio",
       metaDescription:
-        "Portafolio de Juan Sebastián Rubiano, estudiante de Ingeniería de Sistemas y tecnólogo en Desarrollo de Sistemas Informáticos. Proyectos y experiencia aplicada en desarrollo de software, análisis de datos, ingeniería de datos, visualización, automatización y soluciones digitales.",
+        "Portafolio de Juan Sebastián Rubiano, tecnólogo en Desarrollo de Sistemas Informáticos y estudiante de Ingeniería de Sistemas con materias finalizadas y proyecto de grado en curso. Experiencia aplicada en software, bases de datos, análisis de datos y atención al cliente.",
       nav: {
         menu: "Menú",
         skills: "Conocimientos",
@@ -17,18 +17,18 @@
         title:
           'Construyo <span class="accent">software, análisis de datos</span> y soluciones digitales con enfoque práctico.',
         summary1:
-          "Soy estudiante de décimo semestre de Ingeniería de Sistemas y tecnólogo en Desarrollo de Sistemas Informáticos. He construido una base aplicada en software, bases de datos, visualización y organización de información a partir de proyectos y problemas reales.",
+          "Soy tecnólogo en Desarrollo de Sistemas Informáticos. Terminé las materias de Ingeniería de Sistemas y estoy realizando mi proyecto de grado. He trabajado en la operación y atención al cliente de una óptica, donde identifiqué necesidades de información y diseñé soluciones digitales.",
         summary2:
-          "Busco prácticas empresariales y primeras oportunidades donde pueda aportar en desarrollo de software, análisis de datos o roles de apoyo en ingeniería de datos, combinando aprendizaje rápido con experiencia aplicada en productos, reportes y trazabilidad.",
-        availabilityTitle: "Disponible para prácticas y primeras oportunidades",
+          "En mis proyectos he trabajado con SQL, análisis de datos y desarrollo de software. Busco un rol de entrada en implementación, datos o software donde pueda aportar capacidad de análisis, comunicación y conocimiento de procesos reales.",
+        availabilityTitle: "Disponible para roles junior y trainee",
         availabilityBody:
-          "Abierto a prácticas empresariales, roles trainee y posiciones junior en desarrollo de software, análisis de datos y automatización.",
+          "Abierto a posiciones de entrada en implementación, análisis de datos y desarrollo de software.",
       },
       skills: {
         eyebrow: "Conocimientos",
-        title: "Base técnica para aportar en datos, software y automatización.",
+        title: "Conocimientos aplicados en datos y software.",
         intro:
-          "Organicé mis herramientas por bloques para mostrar con claridad dónde puedo sumar valor hoy y qué línea sigo fortaleciendo.",
+          "Estas son las herramientas que he utilizado en proyectos y problemas reales. Mi foco está en analizar información y construir soluciones útiles.",
         items: [
           {
             title: "Datos y analítica",
@@ -44,20 +44,7 @@
             ],
           },
           {
-            title: "Ingeniería de datos",
-            summary: "Estoy consolidando fundamentos para estructurar, transformar y preparar datos con enfoque moderno de plataforma.",
-            accent: "#7ee0ff",
-            tools: [
-              { label: "PySpark", abbr: "PyS", color: "#ffb15a" },
-              { label: "ETL / ELT", abbr: "ETL", color: "#f0a35a" },
-              { label: "Data Lake", abbr: "DL", color: "#7ed9c1" },
-              { label: "Lakehouse", abbr: "LH", color: "#82b9ff" },
-              { label: "Fabric", abbr: "Fab", color: "#b49cff" },
-              { label: "Medallion", abbr: "Med", color: "#8fe6d4" },
-            ],
-          },
-          {
-            title: "Desarrollo de software",
+            title: "Software",
             summary: "Construyo interfaces, APIs y soluciones funcionales que conectan experiencia de usuario, lógica y datos.",
             accent: "#c9b4ff",
             tools: [
@@ -65,21 +52,8 @@
               { label: "React", icon: "fa-brands fa-react", color: "#7ee0ff" },
               { label: "Node.js", icon: "fa-brands fa-node-js", color: "#88df8a" },
               { label: "NestJS", abbr: "N", color: "#ff7b90" },
+              { label: "PostgreSQL", abbr: "PG", color: "#82b9ff" },
               { label: "Git", icon: "fa-brands fa-git-alt", color: "#ff8a64" },
-              { label: "Docker", icon: "fa-brands fa-docker", color: "#78c7ff" },
-            ],
-          },
-          {
-            title: "Bases de datos e integración",
-            summary: "Trabajo consultas, modelado, persistencia e intercambio de información para soluciones más consistentes.",
-            accent: "#ffb07d",
-            tools: [
-              { label: "SQL relacional", abbr: "SQL", color: "#82b9ff" },
-              { label: "NoSQL", abbr: "No", color: "#9bd8ff" },
-              { label: "Modelado", abbr: "Md", color: "#b1a4ff" },
-              { label: "APIs", abbr: "API", color: "#f0a35a" },
-              { label: "Calidad", abbr: "QA", color: "#8fe6d4" },
-              { label: "Integración", abbr: "INT", color: "#ffc98a" },
             ],
           },
         ],
@@ -125,22 +99,6 @@
             links: [{ label: "GitHub", href: "https://github.com/Zhulgon/DashboardTableau" }],
             image: "assets/projects/tableau-dashboard-summary.png",
             fallback: "TB",
-          },
-          {
-            name: "Data Lake Practice",
-            kind: "standard",
-            meta: "Ingeniería de datos · En evolución",
-            title: "Laboratorio personal para practicar modelado por capas y consumo analítico",
-            summary:
-              "Proyecto en desarrollo para reforzar fundamentos de arquitectura lakehouse, transformación de datos y organización por capas con criterio de ingeniería.",
-            bullets: [
-              "Práctica con Python, SQL, PySpark, Data Lake, Lakehouse y arquitectura Medallion.",
-              "Representa mi transición activa hacia escenarios de data engineering y plataformas modernas de datos.",
-            ],
-            tags: ["Python", "SQL", "PySpark", "Data Lake", "Lakehouse", "Medallion"],
-            links: [{ label: "GitHub", href: "https://github.com/Zhulgon/DataLakePractice" }],
-            image: "assets/projects/DataLake.png",
-            fallback: "DL",
           },
           {
             name: "Estadística de cojinetes",
@@ -215,23 +173,23 @@
         eyebrow: "Formación y proyección",
         title: "Base académica, certificaciones y tecnologías que respaldan mi siguiente paso.",
         intro:
-          "Una combinación de formación formal, certificaciones y herramientas que me permite postularme a prácticas en software, datos y analítica con argumentos concretos.",
+          "Mi formación, certificaciones terminadas y proyectos respaldan mi búsqueda de un primer rol profesional en implementación, datos o software.",
         orbitTitle: "Tecnologías que hoy sostienen mis dos líneas principales",
         orbitIntro:
           "Datos y analítica por un lado; desarrollo de software por el otro. Ambas líneas se conectan en proyectos aplicados.",
         items: [
           {
             icon: "fa-solid fa-graduation-cap",
-            topline: "Universidad Tecnológica de Santander",
+            topline: "Universitaria Tecnológica de Santander (UTS)",
             title: "Formación académica",
             details: [
               {
                 label: "Tec. en Desarrollo de Sistemas Informáticos.",
               },
               {
-                label: "Ingeniero de Sistemas.",
+                label: "Ingeniería de Sistemas.",
                 description:
-                  "Estudiante de décimo semestre con interés en desarrollo de software, análisis de datos e ingeniería de datos.",
+                  "Materias finalizadas; proyecto de grado en curso. Interés en implementación, análisis de datos y software.",
               },
             ],
             badges: ["Ingeniería de Sistemas", "Tecnólogo", "Software", "Datos"],
@@ -240,17 +198,15 @@
             icon: "fa-solid fa-chart-line",
             topline: "Certificaciones y foco analítico",
             title: "Datos",
-            body: "Base para prácticas en analítica e ingeniería de datos, con certificaciones reconocidas y trabajo continuo en Python, SQL, visualización y preparación de información.",
+            body: "Certificaciones terminadas en analítica y práctica con Python, SQL, visualización y preparación de información en proyectos.",
             badges: ["Google Data Analytics", "Advanced Data Analytics", "Python y SQL", "EF SET C1"],
             tools: [
               { label: "Python", icon: "fa-brands fa-python", color: "#ffd662" },
               { label: "SQL", abbr: "SQL", color: "#7bd3ff" },
-              { label: "PySpark", abbr: "PyS", color: "#ff9f6b" },
               { label: "Excel", icon: "fa-solid fa-file-excel", color: "#77e4c8" },
               { label: "Tableau", abbr: "Tb", color: "#ffb866" },
               { label: "Power BI", abbr: "BI", color: "#f4c542" },
-              { label: "Fabric", abbr: "Fab", color: "#82b9ff" },
-              { label: "Lakehouse", abbr: "LH", color: "#8fe6d4" },
+              { label: "Estadística", abbr: "Est", color: "#ff9d75" },
             ],
             link: { label: "Ver credenciales", href: "https://www.linkedin.com/in/juansrubiano" },
           },
@@ -286,19 +242,19 @@
             highlights: [
               "Diseñé un sistema para integrar inventarios, ventas, historias clínicas, agenda de citas, sedes, usuarios por roles y reportes operativos.",
               "Analicé ventas e indicadores para entender comportamiento comercial, seguimiento y desempeño del negocio.",
-              "Trabajé marketing digital y presencia comercial para mejorar alcance, comunicación y captación.",
+              "Participé en la atención al cliente y en la resolución de necesidades operativas relacionadas con inventario, ventas y agenda.",
               "Desarrollé un catálogo en realidad aumentada como respuesta a una necesidad comercial detectada en la óptica.",
             ],
             closing:
-              "Esa experiencia me dio criterio operativo, contacto con usuarios y una base sólida para aportar desde prácticas empresariales.",
+              "Esa experiencia me dio criterio operativo, contacto con usuarios y una base para aportar en un rol de entrada.",
           },
         ],
       },
       contact: {
         eyebrow: "Contacto",
-        title: "Conversemos sobre una práctica, entrevista o proyecto.",
+        title: "Conversemos sobre una oportunidad de entrada o un proyecto.",
         body:
-          "Estoy abierto a prácticas empresariales, procesos de selección y colaboraciones donde pueda aportar desde software, datos y aprendizaje continuo.",
+          "Estoy abierto a procesos de selección para roles junior o trainee en implementación, datos y software, y a proyectos donde pueda aportar desde mi experiencia aplicada.",
         reveal: "Mostrar correo",
         copy: "Copiar correo",
         copied: "Correo copiado",
@@ -310,7 +266,7 @@
       },
       footer: {
         backToTop: "Volver arriba",
-        copy: "(c) {year} Juan Sebastián Rubiano. Portafolio orientado a prácticas en software, datos y analítica aplicada.",
+        copy: "(c) {year} Juan Sebastián Rubiano. Portafolio orientado a roles de entrada en implementación, datos y software.",
       },
       theme: {
         light: "Modo claro",
@@ -324,7 +280,7 @@
     en: {
       metaTitle: "Juan Sebastián Rubiano | Portfolio",
       metaDescription:
-        "Portfolio of Juan Sebastián Rubiano, Systems Engineering student and Software Development Technologist. Projects and applied experience across software development, data analytics, data engineering, visualization, automation and digital solutions.",
+        "Portfolio of Juan Sebastián Rubiano, Software Development Technologist and Systems Engineering student with coursework completed and a degree project in progress. Applied experience in software, databases, data analytics and customer service.",
       nav: {
         menu: "Menu",
         skills: "Skills",
@@ -338,18 +294,18 @@
         title:
           'I build <span class="accent">software, data analysis</span> and digital solutions with a practical mindset.',
         summary1:
-          "I am a tenth-semester Systems Engineering student and Software Development Technologist. I have built an applied foundation in software, databases, visualization and information organization through projects and real operational problems.",
+          "I am a Software Development Technologist. I have completed my Systems Engineering coursework and am working on my degree project. I have worked in the operations and customer service of an optical business, where I identified information needs and designed digital solutions.",
         summary2:
-          "I am looking for internships and early-career opportunities where I can contribute in software development, data analysis or data engineering support roles, combining fast learning with practical experience in products, reporting and traceability.",
-        availabilityTitle: "Open to internships and early-career opportunities",
+          "In my projects, I have worked with SQL, data analysis and software development. I am seeking an entry-level role in implementation, data or software where I can contribute analytical thinking, communication and an understanding of real operations.",
+        availabilityTitle: "Open to junior and trainee roles",
         availabilityBody:
-          "Open to internships, trainee roles and junior positions in software development, data analytics and automation.",
+          "Open to entry-level positions in implementation, data analytics and software development.",
       },
       skills: {
         eyebrow: "Skills",
-        title: "Technical foundation to contribute in data, software and automation.",
+        title: "Applied skills in data and software.",
         intro:
-          "I grouped my tools into clear blocks to show where I can contribute today and which direction I am actively strengthening.",
+          "These are tools I have used in projects and real problems. I focus on analyzing information and building useful solutions.",
         items: [
           {
             title: "Data and analytics",
@@ -365,20 +321,7 @@
             ],
           },
           {
-            title: "Data engineering",
-            summary: "I am consolidating the foundations to structure, transform and prepare data with a modern platform mindset.",
-            accent: "#7ee0ff",
-            tools: [
-              { label: "PySpark", abbr: "PyS", color: "#ffb15a" },
-              { label: "ETL / ELT", abbr: "ETL", color: "#f0a35a" },
-              { label: "Data Lake", abbr: "DL", color: "#7ed9c1" },
-              { label: "Lakehouse", abbr: "LH", color: "#82b9ff" },
-              { label: "Fabric", abbr: "Fab", color: "#b49cff" },
-              { label: "Medallion", abbr: "Med", color: "#8fe6d4" },
-            ],
-          },
-          {
-            title: "Software development",
+            title: "Software",
             summary: "I build interfaces, APIs and functional solutions that connect user experience, logic and data.",
             accent: "#c9b4ff",
             tools: [
@@ -386,21 +329,8 @@
               { label: "React", icon: "fa-brands fa-react", color: "#7ee0ff" },
               { label: "Node.js", icon: "fa-brands fa-node-js", color: "#88df8a" },
               { label: "NestJS", abbr: "N", color: "#ff7b90" },
+              { label: "PostgreSQL", abbr: "PG", color: "#82b9ff" },
               { label: "Git", icon: "fa-brands fa-git-alt", color: "#ff8a64" },
-              { label: "Docker", icon: "fa-brands fa-docker", color: "#78c7ff" },
-            ],
-          },
-          {
-            title: "Databases and integration",
-            summary: "I work with queries, modeling, persistence and information exchange for more consistent solutions.",
-            accent: "#ffb07d",
-            tools: [
-              { label: "Relational SQL", abbr: "SQL", color: "#82b9ff" },
-              { label: "NoSQL", abbr: "No", color: "#9bd8ff" },
-              { label: "Modeling", abbr: "Mod", color: "#b1a4ff" },
-              { label: "APIs", abbr: "API", color: "#f0a35a" },
-              { label: "Quality", abbr: "QA", color: "#8fe6d4" },
-              { label: "Integration", abbr: "INT", color: "#ffc98a" },
             ],
           },
         ],
@@ -446,22 +376,6 @@
             links: [{ label: "GitHub", href: "https://github.com/Zhulgon/DashboardTableau" }],
             image: "assets/projects/tableau-dashboard-summary.png",
             fallback: "TB",
-          },
-          {
-            name: "Data Lake Practice",
-            kind: "standard",
-            meta: "Data engineering · In progress",
-            title: "Personal lab to practice layered modeling and analytical consumption",
-            summary:
-              "An evolving project to reinforce lakehouse architecture fundamentals, data transformation and layered organization with an engineering mindset.",
-            bullets: [
-              "Practice with Python, SQL, PySpark, Data Lake, Lakehouse and Medallion architecture.",
-              "Represents my active transition toward data engineering scenarios and modern data platforms.",
-            ],
-            tags: ["Python", "SQL", "PySpark", "Data Lake", "Lakehouse", "Medallion"],
-            links: [{ label: "GitHub", href: "https://github.com/Zhulgon/DataLakePractice" }],
-            image: "assets/projects/DataLake.png",
-            fallback: "DL",
           },
           {
             name: "Bearing statistics case",
@@ -536,23 +450,23 @@
         eyebrow: "Education and direction",
         title: "Academic background, certifications and technologies that support my next step.",
         intro:
-          "A combination of formal education, certifications and tools that allows me to apply to internships in software, data and analytics with concrete evidence.",
+          "My education, completed certifications and projects support my search for a first professional role in implementation, data or software.",
         orbitTitle: "Technologies that currently support my two main tracks",
         orbitIntro:
           "Data and analytics on one side; software development on the other. Both come together in applied projects.",
         items: [
           {
             icon: "fa-solid fa-graduation-cap",
-            topline: "Universidad Tecnológica de Santander",
+            topline: "Universitaria Tecnológica de Santander (UTS)",
             title: "Academic background",
             details: [
               {
                 label: "Software Development Technologist.",
               },
               {
-                label: "Systems Engineer.",
+                label: "Systems Engineering.",
                 description:
-                  "Tenth-semester student interested in software development, data analytics and data engineering.",
+                  "Coursework completed; degree project in progress. Interested in implementation, data analytics and software.",
               },
             ],
             badges: ["Systems Engineering", "Technologist", "Software", "Data"],
@@ -561,17 +475,15 @@
             icon: "fa-solid fa-chart-line",
             topline: "Credentials and analytical focus",
             title: "Data",
-            body: "Foundation for analytics and data engineering internships, supported by recognized credentials and continuous work in Python, SQL, visualization and information preparation.",
+            body: "Completed analytics certifications and hands-on work with Python, SQL, visualization and information preparation in projects.",
             badges: ["Google Data Analytics", "Advanced Data Analytics", "Python and SQL", "EF SET C1"],
             tools: [
               { label: "Python", icon: "fa-brands fa-python", color: "#ffd662" },
               { label: "SQL", abbr: "SQL", color: "#7bd3ff" },
-              { label: "PySpark", abbr: "PyS", color: "#ff9f6b" },
               { label: "Excel", icon: "fa-solid fa-file-excel", color: "#77e4c8" },
               { label: "Tableau", abbr: "Tb", color: "#ffb866" },
               { label: "Power BI", abbr: "BI", color: "#f4c542" },
-              { label: "Fabric", abbr: "Fab", color: "#82b9ff" },
-              { label: "Lakehouse", abbr: "LH", color: "#8fe6d4" },
+              { label: "Statistics", abbr: "Stat", color: "#ff9d75" },
             ],
             link: { label: "View credentials", href: "https://www.linkedin.com/in/juansrubiano" },
           },
@@ -607,19 +519,19 @@
             highlights: [
               "Designed a system to integrate inventory, sales, clinical records, appointment scheduling, branches, role-based users and operational reports.",
               "Analyzed sales data and business indicators to understand commercial behavior, follow-up and business performance.",
-              "Worked on digital marketing and commercial visibility to improve reach, communication and acquisition.",
+              "Participated in customer service and addressed operational needs related to inventory, sales and scheduling.",
               "Built an augmented reality catalog in response to a commercial need detected in the optical business.",
             ],
             closing:
-              "That experience gave me operational judgment, direct user exposure and a solid base to contribute through internships.",
+              "That experience gave me operational judgment, direct user exposure and a foundation for an entry-level role.",
           },
         ],
       },
       contact: {
         eyebrow: "Contact",
-        title: "Let’s talk about an internship, interview or project.",
+        title: "Let’s talk about an entry-level opportunity or project.",
         body:
-          "I am open to internships, hiring processes and collaborations where I can contribute through software, data and continuous learning.",
+          "I am open to junior and trainee hiring processes in implementation, data and software, as well as projects where I can contribute my applied experience.",
         reveal: "Show email",
         copy: "Copy email",
         copied: "Email copied",
@@ -631,7 +543,7 @@
       },
       footer: {
         backToTop: "Back to top",
-        copy: "(c) {year} Juan Sebastián Rubiano. Portfolio oriented to internships in software, data and applied analytics.",
+        copy: "(c) {year} Juan Sebastián Rubiano. Portfolio oriented to entry-level roles in implementation, data and software.",
       },
       theme: {
         light: "Light mode",
